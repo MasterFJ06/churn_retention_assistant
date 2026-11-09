@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+mlruns/
+mlflow.db*
+data/raw/*.csv
+data/silver/*.csv
+data/gold/*.csv
+models/*.joblib
+.streamlit/secrets.toml
+.env
